@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("online_assessment.css");
+
 *{
   margin: 0;
   padding: 0;
@@ -1839,6 +1841,11 @@ svg{
   right: -30px;
   bottom: 10%;
 }
+@media (max-width:1500px){
+  .complete_card{
+    right:10px;
+  }
+}
 .live_card{
   position: absolute;
   left: -39px;
@@ -2047,3 +2054,272 @@ margin-left: -10%;
   background: #fff;
   padding-bottom: 0;
 }
+
+
+
+/*digital homework teacher steps sec css start */
+
+.teachers_steps_wrapper{
+  padding: 100px 0 0;
+}
+.teachers_steps_wrapper .heading_wrap{
+  margin-bottom: 40px;
+}
+.teachers_steps_wrapper .heading_wrap p strong{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+    margin-bottom: 12px;
+}
+.teachers_steps_wrapper .heading_wrap p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8B939A;
+    max-width: 900px;
+    margin: auto;
+}
+.teachers_steps_wrapper .heading3 {
+  line-height: 85px;
+  margin-bottom: 40px;
+}
+.teachers_steps_wrapper .heading3 span{
+  display: inline-block;
+}
+.steps_example_wrapper{
+  display: flex;
+}
+.steps_example_wrapper .left_ui{
+  width: 33%;
+}
+.steps_example_wrapper .right_ui{
+  width: 66%;
+}
+.steps_example_wrapper .right_ui .content_ui{
+  padding-left: 80px;
+  position: relative;
+}
+
+
+.steps_example_wrapper .right_ui .content_ui:before{
+  border-left:1px dashed #000000;
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 1px;
+  height: 100%;
+}
+.steps_example_wrapper .right_ui .content_ui ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.steps_example_wrapper .right_ui .content_ui ul li{
+  width: 50%;
+}
+.steps_example_wrapper .content_ui{
+  margin-bottom: 50px;
+}
+.steps_example_wrapper .content_ui h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+    margin-bottom: 16px;
+}
+.steps_example_wrapper .content_ui ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #8B939A;
+    position: relative;
+    padding-left: 15px;
+}
+.steps_example_wrapper .content_ui ul li:before{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background:#8B939A;
+  border-radius: 100%;
+  top: 18px;
+  left: 0px;
+}
+
+.teachers_steps_wrapper .image_wrapper{
+  display: flex;
+  align-items: flex-start;
+}
+.teachers_steps_wrapper .image_wrapper .image_blk{
+  width: 31.33%;
+  margin-right: 1%;
+  position: relative;
+  text-align: center;
+}
+.teachers_steps_wrapper .image_wrapper .image_blk:last-child:after{
+  display: none;
+}
+.teachers_steps_wrapper .image_wrapper .image_blk:after{
+  position: absolute;
+  content: "";
+  right: -52px;
+  bottom: 15%;
+  width: 100px;
+  height: 80px;
+  background: url("../images/homework/steps_arrow.png") no-repeat;
+  background-size: 100%;
+
+}
+.teachers_steps_wrapper .image_wrapper .image_blk:last-child{
+  margin-right: 0;
+}
+.teachers_steps_wrapper .image_wrapper .image_blk img{
+  max-width: 300px;
+}
+
+.student_steps_wrapper{
+  padding: 100px 0 0;
+}
+.student_steps_wrapper .heading_wrap{
+  margin-bottom: 30px;
+}
+.student_steps_wrapper .heading_wrap .heading3{
+  margin-bottom: 30px;
+}
+.student_steps_wrapper .heading_wrap p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8B939A;
+    max-width: 900px;
+    margin: auto;
+}
+
+.student_listing_wrap{
+  display: flex;
+  margin-bottom: 60px;
+}
+.student_listing_wrap .list_card{
+  width: 31.33%;
+  margin-right: 1%;
+}
+.student_listing_wrap .list_card:last-child{
+  margin-right: 0;
+}
+.student_listing_wrap .list_card h5{
+  margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+}
+.student_listing_wrap .list_card li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #8B939A;
+    position: relative;
+    padding-left: 15px;
+}
+.student_listing_wrap .list_card li:before{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background:#8B939A;
+  border-radius: 100%;
+  top: 18px;
+  left: 0px;
+}
+
+.student_listing_wrap .list_card p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #8B939A;
+}
+.student_steps_card{
+  margin-bottom: 60px;
+}
+.student_steps_card .first_row .hexa_ui {
+	width: 24.5%;
+	flex-direction: column;
+	height: auto;
+}
+.student_steps_card .first_row .hexa_ui .hexa_inner_ui {
+	height: 186px;
+}
+.student_steps_card .hexa_ui span {
+	display: inline-flex;
+}
+.student_steps_card .hexa_ui img {
+	height: 50px;
+}
+.student_steps_card .first_row .hexa_ui .content_ui p {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+	color: #050931;
+	padding: 0 10px;
+}
+.student_steps_card .hexa_ui::after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	border-bottom: 1px dashed #000;
+  left: -36px;
+	top: 60px;
+}
+.student_image_card{
+  display: flex;
+}
+.student_image_card .image_card{
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.student_image_card .image_card:after{
+  position: absolute;
+  content: "";
+  right: -30px;
+  top: 40%;
+  width: 70px;
+  height: 60px;
+  background: url("../images/homework/steps_arrow.png") no-repeat;
+  background-size: 100%;
+}
+.student_image_card .image_card:last-child:after{
+  display:none;
+}
+.student_image_card .image_card img{
+  width: 250px;
+}
+
