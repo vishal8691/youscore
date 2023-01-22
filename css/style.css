@@ -448,6 +448,16 @@ width: 140px;
 
 
 /* technology sec css start  */
+.digital_homework_page .hero_banner_image .image_ui img{
+  max-width: 490px;
+  width: auto;
+}
+
+.live_classes_page .hero_banner_image .image_ui img{
+  max-width:740px;
+  width: auto;
+}
+
 
 .technology_wrapper{
   padding: 100px 0 200px;

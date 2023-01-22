@@ -1,0 +1,321 @@
+
+@media (max-width:1300px){
+  .domains_wrapper.hexa_section .first_row .hexa_ui .hexa_inner_ui{
+      width: 180px;
+      height: 156px;
+  }
+  .domains_wrapper.hexa_section .first_row .hexa_ui .content_ui p{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .domains_wrapper.hexa_section .hexa_ui::after{
+    top: 48px;
+  }
+  .classroom_hexa_wrapper .consulting_card .hexa_card{
+    width: 200px; 
+  }
+  .classroom_hexa_wrapper .consulting_card .hexa_card .text_ui{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width:1199px){
+  .interactive_classes {
+    padding: 80px 0;
+  }
+  .interactive_classes .classes_inner_blk{
+    flex-direction: column;
+  }
+  .interactive_classes .content_blk{
+    width: 100%;
+  }
+  .interactive_classes .image_blk{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+  }
+  .domains_wrapper.hexa_section .hexa_ui:last-child::after{
+    display: none;
+  }
+  .management_system{
+    padding:80px 0 50px;
+  }
+
+  .domains_wrapper.hexa_section .heading_wrap{
+    margin-bottom: 70px;
+  }
+  .institute_classes_card{
+    width: 25%;
+    display: flex;
+  }
+  .institute_classes_card .inner_class_card{
+    width: 100%;
+  }
+  .student_image_card .image_card img{
+    width: 80%;
+  }
+  .student_image_card .image_card:after{
+    display: none;
+  }
+  .content_image_card_sec .circle_shape{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width:1100px){
+  .domains_wrapper.hexa_section .first_row .hexa_ui{
+    width: 28%;
+    margin-bottom: 40px;
+  }
+
+  .inner_hero_banner .heading1 .bold_text {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .content_image_card_sec{
+    padding: 60px 0;
+  }
+}
+
+@media (max-width:991px){
+  .hero_banner_wrapper.inner_hero_banner{
+    min-height: auto;
+  }
+
+  .interactive_classes,
+  .management_system{
+    padding: 50px 0;
+  }
+  .classes_inner_blk .content_blk .desc{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .classes_inner_blk .content_blk ul li{
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .classes_inner_blk .content_blk ul li::before{
+    top: 14px;
+  }
+  .hero_banner_wrapper.inner_hero_banner{
+    min-height: auto;
+  }
+  .homework_application{
+    padding:80px 0;
+  }
+  .teachers_steps_wrapper .heading3{
+    line-height: 64px;
+  }
+  .teachers_steps_wrapper .image_wrapper{
+    display: none;
+  }
+  .student_steps_wrapper,
+  .teachers_steps_wrapper{
+    padding: 60px 0 0 ;
+  }
+  .student_image_card{
+    display: none;
+  }
+  .classroom_hexa_wrapper .consulting_card figure:after{
+    display: none;
+  }
+
+  .classroom_hexa_wrapper .consulting_card:nth-child(odd) .hexa_card{
+    margin-top: 0;
+  }
+  .steps_example_wrapper .right_ui .content_ui:before{
+    left: 27px;
+  }
+  .steps_example_wrapper .content_ui ul li{
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .steps_example_wrapper .content_ui ul li:before{
+    top: 14px;
+  }
+  .student_steps_card .first_row .hexa_ui{
+    width: 33%;
+    margin-bottom: 50px;
+  }
+  .digital_homework_page .classroom_hexa_wrapper .consulting_card{
+    width: 33%;
+    margin-bottom: 20px;
+  }
+  .digital_homework_page .classroom_hexa_wrapper{
+    padding: 60px 0;
+  }
+  .student_steps_card{
+    margin-bottom: 0;
+  }
+
+  .content_image_card_sec .content_wraper .heading2,
+  .content_image_card_sec .content_wraper .heading2 span {
+    line-height: 52px;
+    font-size: 40px;
+  }
+  .content_image_card_sec .content_wraper p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0 30px;
+  }
+
+.hexa_container  .hexa_ui .hexa_inner_ui{
+    width: 180px;
+    height: 84%;
+  }
+  .hexa_container .hexa_ui .text{
+    font-size: 14px;
+  }
+  .content_image_card_sec .image_wrapper img{
+    position: relative;
+    top: 0;
+    transform: initial;
+  }
+  .build_test_sec{
+    padding-top: 60px;
+  }
+
+  .hexa_container{
+    flex-wrap:wrap;
+  }
+  .hexa_container .hexa_ui{
+    width: 25%;
+  }
+  .hexa_container .hexa_ui:last-child{
+    width: 25%;
+  }
+  .exam_type_sec{
+    padding-top: 60px;
+  }
+  
+}
+
+
+@media (max-width:767px){
+  .institute_classes_card{
+    width:50%;
+  }
+  .inner_hero_banner .heading1 .bold_text {
+    font-size: 52px;
+    line-height: 68px;
+    margin-bottom: 0;
+  }
+  .domains_wrapper.hexa_section .first_row .hexa_ui{
+    justify-content: flex-start;
+    width: 33%;
+  }
+  .classes_inner_blk .image_blk img{
+    min-width: 100%;
+    margin-left: 0;
+  }
+  .steps_example_wrapper,
+  .student_listing_wrap{
+    flex-direction: column;
+  }
+  .steps_example_wrapper .right_ui{
+    width: 100%;
+  }
+  .steps_example_wrapper .left_ui{
+    width:100%;
+  }
+  .steps_example_wrapper .right_ui .content_ui{
+    padding-left: 0;
+  }
+  .steps_example_wrapper .right_ui .content_ui:before{
+    display: none;
+  }
+  .student_listing_wrap .list_card{
+    width:100%;
+    margin-bottom: 30px;
+  }
+  .student_listing_wrap .list_card:last-child{
+    margin-bottom: 0;
+  }
+  .student_steps_card .first_row .hexa_ui .hexa_inner_ui{
+    width: 180px;
+    height: 160px;
+  }
+  .first_row{
+    align-items: flex-start;
+  }
+  .classroom_hexa_wrapper .consulting_card .hexa_card{
+    height: 150px;
+  }
+  .classroom_hexa_wrapper .consulting_card .hexa_card .text_ui {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .strategy_wrapper.smart_classroom{
+    padding-top: 60px;
+  }
+
+  .content_image_card_sec.reverse_ui .col-md-7{
+    order: 1;
+  }
+  .content_image_card_sec.reverse_ui .col-md-5{
+    order: 2;
+  }
+  .content_image_card_sec .content_wraper{
+    margin-top: 30px;
+  }
+  .image_content_sec .reverse_ui .col-md-6:first-child{
+    order: 1;
+  }
+  .image_content_sec .reverse_ui .col-md-6:last-child{
+    order: 2;
+  }
+
+  .hexa_container .hexa_ui,
+  .hexa_container .hexa_ui:last-child{
+    width: 33%;
+  }
+  .exam_type_sec{
+    padding-bottom: 0;
+  }
+  .client_card figure{
+    width: 170px;
+    height: 170px;
+  }
+
+}
+
+@media (max-width:599px){
+  .domains_wrapper.hexa_section .first_row .hexa_ui{
+    width:50%;
+  }
+  .classes_inner_blk .content_blk .heading4{
+    white-space: normal;
+  }
+  .classes_inner_blk .content_blk .white_card{
+    width:100%;
+  }
+  .institute_classes_card{
+    width:100%;
+  }
+  .student_steps_card .first_row .hexa_ui{
+    width:50%;
+  }
+  .digital_homework_page .classroom_hexa_wrapper .consulting_card{
+    width:50%;
+    display: flex;
+    justify-content: center;
+  }
+  .classroom_hexa_wrapper .consulting_card figure{
+    justify-content: center;
+    display: flex;
+  }
+  .hexa_container .hexa_ui,
+  .hexa_container .hexa_ui:last-child{
+    width: 50%;
+  }
+
+  .inner_hero_banner .heading1 .subtext{
+    font-size:32px;
+    line-height: 52px;
+  }
+  .inner_hero_banner .heading1 .bold_text{
+    font-size: 44px;
+    line-height:52px;
+  }
+}
