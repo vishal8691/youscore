@@ -318,4 +318,9 @@
     font-size: 44px;
     line-height:52px;
   }
+
+  .homepage  .first_row .hexa_ui .hexa_inner_ui{
+    width: 180px;
+    height: 140px;
+  }
 }
