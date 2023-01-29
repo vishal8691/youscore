@@ -49,3 +49,229 @@
   left: 20%;
   bottom: 12%;
 }
+.content_image_sec
+{
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.content_image_sec .image_blk img{
+  width: 100%;
+  position: relative;
+  top:80px;
+}
+.content_image_sec .heading3{
+  margin-bottom: 30px;
+}
+
+.content_image_sec .content_blk p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #8B939A;
+    margin-bottom: 20px;
+}
+.content_image_sec .content_blk ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content_image_sec .content_blk ul li{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #8B939A;
+  margin-bottom: 20px;
+  width: 50%;
+  position: relative;
+  padding-left: 16px;
+}
+.content_image_sec .content_blk ul li:before{
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #8B939A;
+  display: inline-block;
+  left: 0;
+  top: 12px;
+}
+
+.student_comunicate .col-lg-8{
+  order: 2;
+}
+
+.student_comunicate .col-lg-4{
+  order:1;
+}
+.student_comunicate .content_blk{
+  padding-left: 60px;
+} 
+.student_comunicate .content_blk .heading3{
+  line-height: 85px;
+}
+.student_comunicate .content_blk span{
+  display: block;
+  
+}
+.student_comunicate.content_image_sec .image_blk img{
+  top: 145px;
+}
+
+.chat_application_build .heading3{
+    text-align: center;
+    line-height: 85px;
+    margin-bottom: 40px;
+}
+
+.chat_application_build .consulting_steps{
+  justify-content: center;
+}
+.chat_application_build .consulting_steps h5:after{
+  display: none;
+}
+.managed_communication .image_blk img{
+  width: 100%;
+}
+.managed_communication .content_blk .heading3{
+  margin-bottom: 30px;
+}
+.managed_communication .content_blk .desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #8B939A;
+    margin-bottom: 50px;
+}
+.managed_communication .hexa_container .hexa_ui,
+.managed_communication .hexa_container .hexa_ui:last-child{
+  width:33%;
+  height: auto;
+}
+.managed_communication .hexa_container .hexa_ui::after{
+  top:23%;
+}
+.managed_communication .hexa_container .hexa_ui .hexa_inner_ui{
+  height: 180px;
+}
+.managed_communication .hexa_container .hexa_ui .hexa_inner_ui img{
+  height: 50px;
+}
+
+.managed_communication .hexa_container .hexa_ui .content_ui{
+    max-width: 200px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+
+}
+
+@media (max-width:1199px){
+  .chat-app-page .inner_hero_banner .heading1 .bold_text{
+    font-size: 70px;
+    line-height: 86px;
+  }
+  .chat-app-page .inner_hero_banner .heading1{
+    line-height: 80px;
+  }
+  .content_image_sec{
+    padding-top: 70px;
+  }
+}
+
+@media (max-width:991px){
+  .managed_communication .hexa_container .hexa_ui .hexa_inner_ui{
+    height: 150px;
+  }
+  .managed_communication .content_blk .heading3{
+    margin-bottom: 20px;
+  }
+  .managed_communication .hexa_container .hexa_ui .content_ui{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .managed_communication .image_blk img {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+      display: block;
+    }
+    .content_image_sec .image_blk{
+      text-align: center;
+    }
+    .content_image_sec .image_blk img {
+      max-width: 400px;
+      display: inline-block;
+  }
+  .chat_application_build .heading3 {
+    text-align: center;
+    line-height: 66px;
+    margin-bottom: 40px;
+  }
+
+  .student_comunicate .col-lg-8{
+    order: 1;
+  }
+
+  .student_comunicate .col-lg-4{
+    order:2;
+  } 
+  .student_comunicate .content_blk .heading3 {
+      line-height: 60px;
+    }
+    .student_comunicate .content_blk {
+      padding-left:0px;
+  }
+}
+
+@media (max-width:767px){
+  .chat-app-page .inner_hero_banner .heading1{
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .chat-app-page .inner_hero_banner .heading1 .bold_text {
+      font-size: 50px;
+      line-height: 64px;
+  }
+  .chat-app-page .inner_hero_banner .hero_banner_content p{
+    font-size: 20px;
+  }
+  .managed_communication .hexa_container .hexa_ui, .managed_communication .hexa_container .hexa_ui:last-child{
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .content_image_sec{
+    padding-top: 50px;
+  }
+  .content_image_sec .content_blk ul li{
+    width: 100%;
+  }
+  .managed_communication .hexa_container .hexa_ui .hexa_inner_ui{
+    margin-top: 0;
+  }
+  .chat_application_build .heading3 {
+      line-height: 57px;
+  }
+  .chat_application_build .heading3, .chat_application_build .heading3 span{
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .student_comunicate .content_blk .heading3{
+    margin-bottom: 20px;
+  }
+  .student_comunicate .content_blk .heading3 {
+      line-height: 50px;
+  }
+}
