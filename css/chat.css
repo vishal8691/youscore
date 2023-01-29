@@ -1,0 +1,51 @@
+.chat-app-page .inner_hero_banner .heading1{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 98px;
+    letter-spacing: 0.01em;
+    color: #050931;
+}
+.chat-app-page .inner_hero_banner .heading1{
+  margin-bottom: 20px;
+}
+
+.chat-app-page .inner_hero_banner .heading1 .bold_text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 98px;
+  letter-spacing: 0.01em;
+  color: #050931;
+  margin-bottom: 0;
+}
+.chat-app-page .inner_hero_banner .hero_banner_content p{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  color: #050931;
+  margin-bottom: 30px;
+}
+.chat-app-page  .hero_banner_wrapper.inner_hero_banner .image_ui{
+  width: 100%;
+  left: 0;
+}
+.inner_hero_banner .text_card.chat-card1{
+  position: absolute;
+  left: 0;
+  top: 18%;
+}
+
+.inner_hero_banner .text_card.chat-card2{
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+
+.inner_hero_banner .text_card.chat-card3{
+  position: absolute;
+  left: 20%;
+  bottom: 12%;
+}

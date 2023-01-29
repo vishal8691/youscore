@@ -1,0 +1,180 @@
+
+.lms_page .hero_banner_content .heading1 .subtext{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  color: #050931;
+}
+
+.inner_hero_banner .text_card.lms_card1{
+position: absolute;
+left: -15%;
+top: 21%;
+}
+
+.inner_hero_banner .text_card.lms_card2{
+position: absolute;
+right: 0%;
+top: 0%;
+}
+
+.inner_hero_banner .text_card.lms_card3{
+position: absolute;
+right: 3%;
+bottom: 1%;
+}
+
+.inner_hero_banner .text_card.lms_card4{
+position: absolute;
+left: -4%;
+bottom: 6%;
+}
+.hexa_section{
+  /* padding: 100px 0; */
+}
+.hexa_section .hexa_ui{
+  width: 25%;
+  height: auto;
+  align-self: flex-start;
+}
+.hexa_section .hexa_ui:last-child{
+  width: 25%;
+}
+
+.hexa_section .hexa_container{
+  justify-content: center;
+  width: 100%;
+}
+.hexa_section .hexa_ui .hexa_inner_ui{
+  height: 180px;
+}
+.hexa_section .hexa_ui .hexa_inner_ui img{
+  height: 50px;
+}
+
+.hexa_section .hexa_ui .content_ui p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #050931;
+    max-width: 200px;
+}
+
+.packages_sec{
+  background: #F6F7FB;
+}
+.packages_sec .heading3{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.packages_sec .heading3 span{
+  display: block;
+}
+
+.packages_sec .institute_classes_card{
+  width:16.66%;
+}
+.lms_page .build_test_sec{
+  padding-bottom: 100px;
+}
+.lms_page .build_test_sec .heading3{
+  margin-bottom: 30px;
+}
+.lms_page .build_test_sec .heading_wrap{
+  margin-bottom: 20px;
+}
+
+.stack_holder .image_blk img{
+  max-width: 800px;
+}
+.stack_holder{
+  position: relative;
+  overflow: hidden;
+}
+.stack_holder .col-md-6:first-child{
+  order: 2;
+}
+
+.stack_holder .col-md-6:last-child{
+  order: 1;
+}
+
+.stack_holder .heading3{
+  margin-bottom: 30px;
+}
+.stack_holder p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-transform: capitalize;
+
+    color: #8B939A;
+    margin-bottom: 30px;
+}
+
+.ptb-100{
+  padding: 100px 0;
+}
+@media (max-width:1199px){
+  .ptb-100{
+    padding: 70px 0 50px;
+  }
+  .packages_sec .institute_classes_card{
+    width: 25%;
+  }
+}
+@media (max-width:991px){
+  .hexa_section .hexa_container .hexa_ui .hexa_inner_ui{
+    height: 155px;
+  }
+}
+
+
+@media (max-width:767px){
+  .ptb-100{
+    padding: 70px 0 50px;
+  }
+  .packages_sec .institute_classes_card{
+    width: 33%;
+  }
+
+  .stack_holder .col-md-6:first-child{
+    order: 1;
+  }
+  .stack_holder .col-md-6:last-child{
+    order: 2;
+  }
+  .stack_holder .image_blk img{
+    width: 100%;
+  }
+  .stack_holder{
+    padding: 50px 0;
+  }
+  .stack_holder .content_blk{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:599px){
+  .packages_sec .institute_classes_card{
+    width: 50%;
+  }
+}
+
+@media (max-width:400px){
+  .packages_sec .institute_classes_card{
+    width: 100%;
+  }
+}

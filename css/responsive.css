@@ -512,7 +512,7 @@
     margin-bottom: 0;
   }
 
-  .successful-organization  .heading3, .heading3 span {
+  .successful-organization  .heading3,   .successful-organization  .heading3 span {
     font-size: 26px;
     line-height: 40px;
 }
