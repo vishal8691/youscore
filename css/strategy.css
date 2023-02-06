@@ -1,0 +1,182 @@
+.strategy_page .hero_banner_image .image_ui img{
+  min-width:820px;
+}
+.strategy_page .hero_banner_content{
+  max-width: 600px;
+}
+.strategy_page .hero_banner_content .desc{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color:var(--darkblue);
+    margin-bottom: 30px;
+}
+
+.inner_hero_banner .strategy_text_card1{
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.inner_hero_banner .strategy_text_card2{
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+
+.inner_hero_banner .strategy_text_card3{
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+}
+
+
+.inner_hero_banner .strategy_text_card4{
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.business_consulting_wrapper h3{
+  margin-bottom: 60px;
+}
+.business_consulting_wrapper .hexa_ui .content_ui p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+}
+
+
+.evalute_section .heading3{
+  margin-bottom: 30px;
+}
+.evalute_section .sub-heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8B939A;
+    margin-bottom: 50px;
+}
+.card_listing{
+  display: flex;
+}
+.evalute_card{
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.evalute_card figure{
+  background: #FFFFFF;
+  box-shadow: 0px 12px 30px 6px #F6F7FB;
+  border-radius: 20px;
+  width:120px;
+  height:120px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20xp;
+}
+
+.evalute_card .content_ui label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #050931;
+}
+
+.evalute_card .content_ui p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8B939A;
+}
+.evalute_section .btn_wrapper{
+  margin-top: 50px;
+}
+
+.strategy_page .classroom_hexa_wrapper .heading3{
+  margin-bottom: 50px;
+}
+
+.strategy_page .classroom_hexa_wrapper .subheading{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8B939A;
+  margin-bottom: 50px;
+  
+}
+
+.prioritize_card{
+  width:16.66%;
+  padding: 0 10px;
+}
+
+.prioritize_card .inner_ui{
+  width:100%;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 30px 6px #F6F7FB;
+  border-radius: 20px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.2s ease-in-out;
+}
+.prioritize_card .inner_ui:hover{
+  transform: translateY(-4px);
+}
+.prioritize_card .inner_ui .icon{
+  margin-bottom: 16px;
+  min-height: 64px;
+}
+.prioritize_card .inner_ui p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #050931;
+}
+
+.market_strategy .heading3{
+  margin-bottom: 50px;
+}
+.market_strategy .subheading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    /* or 170% */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #8B939A;
+    margin-bottom: 60px;
+}
