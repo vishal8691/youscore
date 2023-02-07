@@ -94,6 +94,15 @@
     font-size: 32px;
     line-height: 48px;
   }
+
+  .evalute_card{
+    width:25%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .strategy_page .card_listing{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width:1100px){
@@ -112,6 +121,7 @@
   .contact_form, .successful-organization, .technology_analytics{
     padding: 70px 0;
   }
+ 
 
   
 }
@@ -176,7 +186,9 @@
     width: 33%;
     margin-bottom: 50px;
   }
-  .digital_homework_page .classroom_hexa_wrapper .consulting_card{
+  .digital_homework_page .classroom_hexa_wrapper .consulting_card,
+  .initiative_page .classroom_hexa_wrapper .consulting_card,
+  .strategy_page .classroom_hexa_wrapper .consulting_card{
     width: 33%;
     margin-bottom: 20px;
   }
@@ -295,6 +307,21 @@
       line-height: 70px;
     }
 
+    .evalute_section .sub-heading{
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+
+    .evalute_card{
+      width:30%;
+      justify-content: flex-start;
+      margin-bottom: 40px;
+    }
+    .strategy_page .card_listing{
+      justify-content: center;
+    }
+
 }
 
 
@@ -346,7 +373,7 @@
     align-items: flex-start;
   }
   .classroom_hexa_wrapper .consulting_card .hexa_card{
-    height: 150px;
+    height: 165px;
   }
   .classroom_hexa_wrapper .consulting_card .hexa_card .text_ui {
     font-size: 13px;
@@ -435,6 +462,46 @@
         padding: 50px 0 0;
         margin-top: 0;
     }
+
+    .initiative_page .content_image_sec .content_blk ul li,
+    .initiative_page  .content_image_sec .content_blk p{
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .counter_card .card_inner{
+      min-height: 170px;
+    }
+    .initiative_page .hero_banner_content .desc,
+    .strategy_page .hero_banner_content .desc{
+      font-size: 20px;
+      line-height: 34px;
+    }
+    .initiative_page .inner_hero_banner .heading1,
+    .strategy_page .inner_hero_banner .heading1{
+      margin-bottom: 20px;
+    }
+    .hexa_container .hexa_ui, .hexa_container .hexa_ui:last-child{
+      justify-content: flex-start;
+    }
+    .business_consulting_wrapper .hexa_ui .content_ui p{
+      font-size: 16px;
+    }
+    .business_consulting_wrapper.ptb-100{
+      padding-bottom: 0;
+    }
+    .evalute_card{
+      width: 50%;
+    }
+    
+    .hexa_container .hexa_ui .hexa_inner_ui{
+      height: 170px;
+    }
+    .hexa_container .hexa_ui{
+      height:auto;
+    }
+    .market_strategy.ptb-100{
+      padding-bottom: 0;
+    }
 }
 
 @media (max-width:599px){
@@ -453,7 +520,9 @@
   .student_steps_card .first_row .hexa_ui{
     width:50%;
   }
-  .digital_homework_page .classroom_hexa_wrapper .consulting_card{
+  .digital_homework_page .classroom_hexa_wrapper .consulting_card,
+  .initiative_page .classroom_hexa_wrapper .consulting_card,
+  .strategy_page .classroom_hexa_wrapper .consulting_card{
     width:50%;
     display: flex;
     justify-content: center;
@@ -516,4 +585,36 @@
     font-size: 26px;
     line-height: 40px;
 }
+
+  .counter_card{
+    padding: 0 10px;
+  }
+  .counter_card .card_inner label{
+    font-size:36px;
+  }
+
+  .initiative_page .stack_holder .content_blk ul li,
+  .initiative_page .stack_holder .content_blk p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .evalute_card{
+    width:100%;
+  }
+  .prioritize_card{
+    width:50%;
+  }
+  .market_strategy .subheading{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .market_strategy .heading3{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:400px){
+  .prioritize_card{
+    width:100%;
+  }
 }

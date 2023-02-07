@@ -1,0 +1,252 @@
+.initiative_page .hero_banner_image .image_ui img{
+  min-width:850px;
+}
+.initiative_page .hero_banner_content{
+  max-width: 600px;
+}
+.initiative_page .hero_banner_content .desc{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color:var(--darkblue);
+    margin-bottom: 30px;
+}
+
+.initiative_page .inner_hero_banner .strategy_text_card1{
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.initiative_page .inner_hero_banner .strategy_text_card2{
+  position: absolute;
+  top: 7%;
+  right: 10%;
+}
+
+.initiative_page .inner_hero_banner .strategy_text_card3{
+  position: absolute;
+  bottom: 7%;
+  right: 0;
+}
+
+
+
+.initiative_page .classroom_hexa_wrapper .heading3{
+  margin-bottom: 50px;
+}
+.initiative_page .classroom_hexa_wrapper .subheading{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8B939A;
+  margin-bottom: 50px;  
+}
+
+.initiative_page .content_image_sec .content_blk ul li{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.initiative_page .content_image_sec .primary_btn{
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+
+
+.built_section .heading3{
+  margin-bottom: 60px;
+}
+
+.counter_ui{
+  display: flex;
+}
+
+.counter_card{
+  padding: 0 30px;
+  width:25%;
+  display: flex;
+  align-items: center;
+
+}
+.counter_card .card_inner{
+  background: #FFFFFF;
+  box-shadow: 0px 12px 30px 6px #F6F7FB;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.counter_card .card_inner label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #90C43F;
+    margin-bottom: 5px;
+}
+
+.counter_card .card_inner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050931;
+}
+.counter_card img{
+  width:100%;
+}
+
+.stack_holder p {
+	font-style: normal;
+	font-weight: 400;
+	font-size:18px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: #8B939A;
+	margin-bottom: 20px;
+}
+.initiative_page .stack_holder .content_blk ul li{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #8B939A;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 16px;
+}
+.initiative_page .stack_holder .content_blk ul li:before{
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #8B939A;
+  display: inline-block;
+  left: 0;
+  top: 12px;
+}
+
+.gap_identification .inner_sec{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.gap_identification .left_ui{
+  width: 70%;
+}
+.gap_identification .left_ui img{
+  width:100%;
+}
+.gap_identification .left_ui p,
+.gap_identification .right_ui p{
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #050931;
+  margin-bottom: 40px;
+}
+.gap_identification .left_ui p span,
+.gap_identification .right_ui p span{
+  font-weight: 600;
+}
+
+.gap_identification .right_ui img{
+  max-width: 272px;
+  margin-left: auto;
+}
+
+.gap_identification .right_ui{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.initiative_page .classroom_hexa_wrapper .consulting_card,
+.strategy_page .classroom_hexa_wrapper .consulting_card{
+  width: 20%;
+}
+
+
+@media (max-width:1199px){
+  .gap_identification{
+    display: none;
+  }
+
+  .initiative_page .classroom_hexa_wrapper .subheading,
+  .strategy_page .classroom_hexa_wrapper .subheading{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .initiative_page .classroom_hexa_wrapper .heading3,
+  .strategy_page .classroom_hexa_wrapper .heading3{
+    margin-bottom: 20px;
+  }
+
+  .counter_card .card_inner{
+    min-height: 200px;
+  }
+  .counter_card .card_inner label{
+      font-size: 42px;
+      line-height: 50px;
+  }
+  .counter_card{
+    padding: 0 16px;
+  }
+
+  .prioritize_card{
+    width:20%;
+    margin-bottom: 30px;
+  }
+ 
+
+}
+
+@media (max-width:991px){
+  .prioritize_card{
+    width:25%;
+  }
+}
+
+@media (max-width:767px){
+  .counter_ui{
+    flex-wrap: wrap;
+  }
+  .counter_card{
+    width:50%;
+    margin-bottom: 24px;
+  }
+  .prioritize_card{
+    width:30%;
+  }
+}
+
+
+
+
